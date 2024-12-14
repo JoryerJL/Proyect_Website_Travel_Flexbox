@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ h1 {
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ }
+
+.header {
+    position: relative;
+    background-image: url('../img/headertravel.jpg'); /* Añade tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    z-index: 1;
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 30px; /* Ajusta el margen según sea necesario */
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
