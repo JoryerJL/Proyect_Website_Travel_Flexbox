@@ -18,11 +18,15 @@
             <p>Explora el mundo con nosotros</p>
             <form class="form-inline mt-4">
                 <div class="form-group mb-2">
-                    <label for="start-date" class="sr-only">Fecha de Inicio</label>
+                    <label for="destination">Destino</label>
+                    <input type="text" class="form-control" id="destination" name="destination">
+                </div>
+                <div class="form-group mb-2 mx-sm-3">
+                    <label for="start-date">Fecha de Inicio</label>
                     <input type="date" class="form-control" id="start-date" name="start-date" placeholder="Fecha de Inicio">
                 </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="end-date" class="sr-only">Fecha de Fin</label>
+                <div class="form-group mb-2 mx-sm-3">
+                    <label for="end-date">Fecha de Fin</label>
                     <input type="date" class="form-control" id="end-date" name="end-date" placeholder="Fecha de Fin">
                 </div>
                 <button type="submit" class="btn btn-primary mb-2">Enviar</button>
@@ -33,6 +37,43 @@
         <section id="about" class="section">
             <h2>Sobre Nosotros</h2>
             <p>Somos una agencia de viajes dedicada a ofrecer las mejores experiencias de viaje.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile text-center">
+                            <div class="img-container mx-auto">
+                                <img src="./img/team1.jpg" alt="Foto de Juan Pérez" class="img-fluid">
+                            </div>
+                            <h3>Juan Pérez</h3>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">"Viajar es vivir."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profile text-center">
+                            <div class="img-container mx-auto">
+                                <img src="./img/team2.jpg" alt="Foto de María López" class="img-fluid">
+                            </div>
+                            <h3>María López</h3>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">"El mundo es un libro y aquellos que no viajan solo leen una página."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="profile text-center">
+                            <div class="img-container mx-auto">
+                                <img src="./img/team3.jpg" alt="Foto de Carlos García" class="img-fluid">
+                            </div>
+                            <h3>Carlos García</h3>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">"Viajar te deja sin palabras y después te convierte en un narrador."</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="services" class="section">
             <h2>Servicios</h2>
